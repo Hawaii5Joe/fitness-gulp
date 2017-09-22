@@ -73,3 +73,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['sass', 'validate', 'htmlhint','babel','beautify','sprites','about','cat','gulp-color','watch']);
+
+gulp.task('jsTasks',['babel','beautify']);
+
+gulp.task('htmlTasks',['htmlhint']);
